@@ -1,48 +1,48 @@
 /* Selectores en CSS */
 
-/* Selector universal */
-
+/* SELECTOR UNIVERSAL*/
+/* Modificara absulamente todos los elementos */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Selector por atributo id */
-
+/* SELECTOR POR ATRIBUTO ID */
+/* Solo modificara el elemento de un especifico ID */
 #subtitulo {
     font-weight: 600;
     font-size: 24px;
     background-color: cadetblue;
 }
 
-/* Selector por clase */
-
+/* SELECTOR POR CLASE */
+/* Modificara solo las clases con el nombre especidifcado */
 .destacado {
     color: violet;
 }
 
-/* Selector por elemento */
-
+/* SELECTOR POR ELEMENTO */
+/* Modificara todos los elementos del mismo tipo */
 ul {
     margin: 20px;
     padding: 20px;
 }
 
-/* Selector por atributo */
-
+/* SELECTOR POR ATRIBUTO */
+/* Modificara todos los elementos de tipo text */
 [type="text"] {
     border: 1px solid orange;
 }
 
-/* Selector pseudoclase */
-
+/* SELECTOR PSEUDOCLASE */
+/* Hace las modificaciones de color cuando coloco el mouse sobre el elemento */
 .destacado:hover {
     color: white;
     background-color: violet;
 }
 
-/* Selector pseudoelemento */
-
+/* SELECTOR PSEUDOELEMENTO */
+/* Convierte todas las primeras letras de los elementos p a un font-size 30px */
 p::first-letter {
     font-size: 30px;
 }
