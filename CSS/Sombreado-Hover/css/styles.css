@@ -1,0 +1,29 @@
+.container{
+    background-color: aquamarine;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+}
+
+.card{
+    background-color: lightcoral;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    /* se hace una sombra especifica para cada lado */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), 
+    -2px -2px 4px rgba(0, 0, 0, 0.1),
+    -2px 2px 4px rgba(0, 0, 0, 0.1),
+    2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1),
+                -4px 4px 6px rgba(0, 0, 0, 0.1),
+                4px -4px 6px rgba(0, 0, 0, 0.1),
+                -4px -4px 6px rgba(0, 0, 0, 0.1);
+}
