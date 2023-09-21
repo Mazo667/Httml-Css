@@ -1,0 +1,31 @@
+*{
+    /* margin es el espacio que se encuentra entre el borde de un elemento
+    y el borde de otro elemento o la pantalla */
+    margin: 0;
+    /* padding es el espacio que se encuentra entre el contenido
+     de un elemento y el borde del elemento.  */
+    padding: 0;
+}
+
+.container {
+    /* display permite a los hijos alinearse y distribuirse de manera flexible */
+    display: flex;
+    /* flex-wrap indica que los elementos hijos de un contenedor 
+    flexbox pueden fluir a varias líneas si no caben en una sola línea */
+    flex-wrap: wrap;
+    /* controla la alineación horizontal de los elementos hijos */
+    justify-content: center;
+    /* controla la alineación vertical de los elementos hijos de un contenedor flexbox */
+    align-items: center;
+    background-color: lightgreen;
+    border-radius: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 250px;
+    background-color: lightcoral;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
