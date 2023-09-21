@@ -1,0 +1,59 @@
+/* IMPLEMENTACION DE UNA FUENTE INTERNA */
+@font-face {
+    font-family: 'Capitan America';
+    font-style: normal;
+    src: url('../fonts/American\ Captain.ttf');
+}
+
+/* IMPLEMENTACION DE UNA FUENTE DE GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* TODO EL BODY SERA MODIFICADO */
+body {
+ /*   Fuentes seguras*/
+    font-family: Arial, Helvetica, sans-serif; 
+}
+   
+
+h1 {
+    font-family: 'Capitan America';
+    font-size: 72px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 26px;
+    text-align: justify;
+    padding: 50px;
+    /* INTERLINEADO */
+    line-height: 1.5;
+     /* ALINEAMIENTO */
+     text-align: center;
+}
+
+.cita{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* SUBRAYADO DE PALABRAS  */
+.subrayado{
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: double;
+}
+
+/* PROPIEDADES DE CAPITALIZACION  */
+.mayus{
+    text-transform: uppercase;
+}
+
+/* La primera letra se transforma en mayuscula */
+.capit{
+    text-transform: capitalize;
+}

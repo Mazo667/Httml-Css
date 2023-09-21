@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300;400&display=swap');
+
+/* COLOR DE LA SELECCION */
+
+*::selection{
+    background-color: chocolate;
+    color: beige;
+}
+
+body {
+    color: #616161;
+}
+
+p{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cita{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    color: crimson;
+}
+
+/* SOMBREADO PARA TEXTOS */
+.sombreado{
+    text-shadow: 2px -2px 4px gray;
+    font-size: 36px;
+}
