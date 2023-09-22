@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(77, 76, 76, 0.616);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
+  .card {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+    filter: blur(2px);
+  }
+
+  .card:hover{
+    filter: none;
+  }
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/imagen4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+    color: whitesmoke;
+    padding-top: 150px;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+    backdrop-filter: blur(4px);
+  }
+
+  .row {
+    padding: 40px;
+}
+
+.row p {
+    color: grey;
+    font-size: 20px;
+}
+
+.parallax{
+    padding: 60px;
+    background-image: url('../img/imagen1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax p{
+    background-color: antiquewhite;
+    color: darkorange;
+    text-align: center;
+    font-size: 32px;
+    padding: 40px;
+    font-style: italic;
+}
