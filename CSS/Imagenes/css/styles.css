@@ -61,15 +61,19 @@ body {
 
 .parallax{
     padding: 60px;
-    background-image: url('../img/imagen1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url('../img/Youtube_icon.png'), url('../img/imagen1.jpg');
+    background-size: 15%,cover;
+    background-repeat: no-repeat,no-repeat;
+    background-position: 20px,center;
+    background-attachment: scroll,fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .parallax p{
-    background-color: antiquewhite;
+  width: 40%;
+  margin-left: 30%;
+    background-color: rgba(204, 203, 203, 0.671);
+    border-radius: 30px;
     color: darkorange;
     text-align: center;
     font-size: 32px;
