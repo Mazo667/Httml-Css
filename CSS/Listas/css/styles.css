@@ -1,0 +1,43 @@
+ul{
+    list-style: none;
+}
+
+
+/*PseudoElemento before (renderizar un contenido antes del elemento) */
+
+li::before{
+    content: '#';
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+}
+
+.darth-vader li::before{
+    content: url('../images/icons8-darth-vader.svg');
+    position: relative;
+    top: 15px;
+}
+
+/*PseudoClases para elementos repetitivos */
+/*
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: blueviolet;
+}
+
+li:nth-child(2){
+    color: green;
+}
+*/
+
+/* Impares e Par*/
+li:nth-child(odd){
+    color:brown;
+}
+
+li:nth-child(even){
+    color:darkblue;
+}
